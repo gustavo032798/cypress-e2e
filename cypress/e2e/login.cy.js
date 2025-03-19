@@ -11,7 +11,7 @@ describe('Login', () => {
     cy.contains('a', 'Create a new note').should('be.visible')
   })
 
-  it('Successfully logout', () => {
+  it('Successfully logout', { tags: '@desktop-and-tablet' }, () => {
     cy.wait('@getNotes')
 
     cy.contains('h1', 'Your Notes').should('be.visible')
