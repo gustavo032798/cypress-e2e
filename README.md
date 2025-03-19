@@ -21,6 +21,8 @@ Antes de executar os testes, é necessário configurar algumas variáveis de amb
 
 Faça uma cópia do arquivo cypress.env.example.json e renomeie para cypress.env.json. Em seguida, defina os valores apropriados para todas as variáveis.
 
+Os valores que são passados como variaveis de ambiente é do servidor de Emails "mailosaur", onde faz a verificação de recebimento de emails para preencher nos testes.
+
 Nota: O arquivo cypress.env.json não é rastreado pelo git, pois está listado no arquivo .gitignore.
 
 ## Executando os Testes
